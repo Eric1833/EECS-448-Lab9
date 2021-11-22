@@ -1,0 +1,22 @@
+html {
+    background-image: url(image1.jpg);
+    background-size: cover;
+}
+
+h1{
+    font-size: 48px;
+}
+p1 {
+    font-size: 22px;
+    color: rgb(0, 89, 255);
+}
+
+a {
+    color: blue;
+}
+
+    a:hover {
+        color: red;
+    }
+
+

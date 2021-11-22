@@ -1,0 +1,66 @@
+<html>
+<nav>
+        <a class="nav" href="../index.html">Home</a> |
+</nav>
+
+<head>
+        <link href="../style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+        <form name="myForm" action="customerBackend.php" onsubmit="return checkfrom()" method="post">
+                <center>
+                        <div>
+                                <h1>Store<h1>
+                        </div>
+                </center>
+                <div>
+                        <p>Welcome, Please login your account to place your Order!</p>
+                        <label for="username">Username:</label>
+                        <input type="email" id="username" name="username">
+                </div>
+                <div>
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password">
+                </div>
+                </div>
+                <div>
+                        <h3>Items</h3>
+                </div>
+
+                <div>
+                        <input type="number" min="0" name="item1" id="item1"  required />
+                        <label for="item1">Iphone 14 Price:$799.00</label>
+                </div>
+                <div>
+                        <input type="number" min="0" name="item2" id="item2"  required />
+                        <label for="item2">Iphone 14 Pro  Price:$899.00</label>
+                </div>
+                <div>
+                        <input type="number" min="0" name="item3" id="item3"  required />
+                        <label for="item3">Iphone 14 Pro Max Price:$1099.00</label>
+                </div>
+                </div>
+                <div>
+                        <h3>Shipping options</h3>
+                </div>
+                <div>
+                        <input type="radio" name="shipping" id="7day" value=0 />
+                        <label for="free">7-Day Shipping: Free</label>
+                </div>
+                <div>
+                        <input type="radio" name="shipping" id="overnight" value=50 />
+                        <label for="overnight">Overnight Shipping: $50.00</label>
+                </div>
+                <div>
+                        <input type="radio" name="shipping" id="3day" value=5 />
+                        <label for="threeday">Three Day Shipping: $5.00</label>
+                </div>
+                </div>
+                <input type="reset" value="Reset" class="resetbtn" />
+                <input type="submit" value="Submit" class="submitbtn" />
+        </form>
+</body>
+<script src="formChecker.js"></script>
+
+</html>
